@@ -67,6 +67,7 @@ a{
     list-style: none;
 }
 
+
 .menu-lista li{
     display:inline-block;
     margin-right: 8px;
@@ -81,7 +82,13 @@ a{
 
     border: 1px solid #3d1263;
     border-radius: 5px;
+}
 
+.menu-link:hover{
+    background-color: ;
+    color: ;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(189, 237, 67, 0.4);
 }
 
 .secao{
@@ -122,4 +129,20 @@ border-radius: 5px;
     border: 2.5px solid rgb(229, 212, 254);
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #3d1263;
+    color: rgb(229, 212, 254);
+    text-align: center;
+}
+
+.rodape address{
+    font-style: normal;
+}
+
+.rodape a{
+    text-decoration: none;
 }
