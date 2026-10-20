@@ -76,10 +76,50 @@ a{
 .menu-link{
     display: inline-block;
     padding: 8px 12px;
-    background-color: rgb(229, 212, 254);
+    background-color: #c888ff;
     color: #3d1263;
 
     border: 1px solid #3d1263;
     border-radius: 5px;
 
+}
+
+.secao{
+    padding: 72px 0;
+}
+
+.titulo-secao{
+margin-bottom: 32px;
+padding-left: 12px;
+
+border-left: 5px solid #c888ff;
+border-radius: 5px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: #f0e6f9;
+    border: 2.5px solid rgb(229, 212, 254);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.lista-tecnologias{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-tecnologias li{
+    padding: 10px;
+    background-color: #f0e6f9;
+    display: inline-block;
+    border: 2.5px solid rgb(229, 212, 254);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
 }
