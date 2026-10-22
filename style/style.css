@@ -82,15 +82,8 @@ a{
     border-radius: 5px;
 }
 
-.menu-link:hover {
-    background-color: #c888ff;
-    color: #3d1263;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(229, 212, 254, 0.4);
-}
-
 .secao{
-    padding: 72px 0;
+    padding: 72px;
 }
 
 .titulo-secao{
