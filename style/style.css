@@ -78,14 +78,13 @@ a{
     padding: 8px 12px;
     background-color: #c888ff;
     color: #3d1263;
-
     border: 1px solid #3d1263;
     border-radius: 5px;
 }
 
-.menu-link:hover{
-    background-color: ;
-    color: ;
+.menu-link:hover {
+    background-color: #c888ff;
+    color: #3d1263;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(229, 212, 254, 0.4);
 }
